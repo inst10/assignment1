@@ -1,0 +1,33 @@
+---
+title: "Assignment1"
+author: "ingrid_og_emilie"
+format: 
+  revealjs:
+        theme: simple
+        reveal_options: 
+        code_fold: show
+        incremnetal: true
+        smaller: true
+        scollable: true
+        slide-number: c/t
+editor: visual
+editor_options:
+  markdown:
+    wrap: 72
+    canonical: true
+    chunk_output_type: console
+echo: true
+eval: true
+notice: '@*'
+---
+
+```{r}
+#|label: setup
+#|output: false
+#|message: false
+library(tidyverse)
+```
+
+## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet? 
+
+-   Hva er forskjellen på **renv** og **checkpoint** ?
