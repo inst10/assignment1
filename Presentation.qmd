@@ -30,4 +30,26 @@ library(tidyverse)
 
 ## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet? 
 
--   Hva er forskjellen på **renv** og **checkpoint** ?
+Hva er forskjellen på **renv** og **checkpoint** ?
+
+## Renv
+
+Renv= renvironment
+
+Gjør at prosjektene blir mer
+
+-   isolert
+-   bærbar
+-   reproduserbar
+
+## Laste ned Renv
+
+-   en pakke
+-   renv::init() i console terminal
+-   kun én gang per prosjekt
+
+![](images/renv console.png){fig-align="center" width="279"}
+
+## Installert i posjektet;
+
+![](images/renv installert.png){fig-align="center"}
