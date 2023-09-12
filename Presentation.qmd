@@ -53,3 +53,10 @@ Gjør at prosjektene blir mer
 ## Installert i posjektet;
 
 ![](images/renv installert.png){fig-align="center"}
+
+## Konklusjon
+
+-   to ulike pakker med forskjellige formål
+-   kan brukes sammen for å forbedre reproduserbarheten
+
+![](images/avslutning.png){fig-align="center" width="521"}
