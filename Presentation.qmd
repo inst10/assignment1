@@ -20,6 +20,7 @@ language: nb.yaml
 echo: true
 eval: true
 bibliography: [ds-h23.bib, My_Bib.bib]
+CSL: apa-annotated-bibliography.csl
 ---
 
 ## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet?
@@ -33,7 +34,7 @@ bibliography: [ds-h23.bib, My_Bib.bib]
 ## Hva er reproduserbarhet?
 
 ::: incremental
--   Evnen til å gjenskape nøyaktig samme resultat
+-   Evnen til å gjenskape nøyaktig samme resultat. [@zotero-163]
 -   Reproduserbarhet er viktig for:
     -   Feilretting
     -   Testing og validering
@@ -47,7 +48,7 @@ bibliography: [ds-h23.bib, My_Bib.bib]
 ## Renv
 
 ::: incremental
-Renv= renvironment
+Renv= renvironment [@zotero-161]
 
 Gjør at prosjektene blir mer
 
@@ -61,7 +62,7 @@ Gjør at prosjektene blir mer
 ## Laste ned Renv
 
 ::: incremental
--   en pakke @renv2023
+-   en pakke [@zotero-161]
 
 -   renv::init() i console terminal
 
@@ -81,7 +82,7 @@ Gjør at prosjektene blir mer
 ::: incremental
 -   **Formål** **:** Opprettholde systemets tilstand slik det var på et
     tidspunkt, slik at man kan gjenopprettes til den tilstanden på et
-    senere tidspunkt.
+    senere tidspunkt. [@zotero-163]
 -   checkpoint kan også blir brukt til:
     -   feilsøking
     -   datagjennoppretting
@@ -102,3 +103,5 @@ Gjør at prosjektene blir mer
 :::
 
 ## Referanser
+
+[@zotero-161; @zotero-163; @zotero-164]
