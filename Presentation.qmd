@@ -18,13 +18,24 @@ editor_options:
     chunk_output_type: console
 echo: true
 eval: true
+---
+
+---
+
 keep-html: true
 notice: '@*'
 ---
 
+. . .
+
 ## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet?
 
+::: incremental
+:::
+
 -   Hva er forskjellen på **renv** og **checkpoint** ?
+
+. . .
 
 ## Hva er reproduserbarhet?
 
@@ -36,34 +47,7 @@ notice: '@*'
     -   Porsjektstyring
 -   Flere måter å oppnå reproduserbarhet -\> Renv & Checkpoint
 
-## Hva er checkpoint?
-
--   **Formål** **:** Opprettholde systemets tilstand slik det var på et
-    tidspunkt, slik at man kan gjenopprettes til den tilstanden på et
-    senere tidspunkt.
--   checkpoint kan også blir brukt til:
-    -   feilsøking
-    -   datagjennoppretting
-    -   sikkerhetskopiering
-
-## Renv **versus Checkpoint**
-
-![](images/Tabell_ingrid-01){fig-align="center"}
-
-notice: '@*'
-
-------------------------------------------------------------------------
-
-```{r}
-#|label: setup
-#|output: false
-#|message: false
-library(tidyverse)
-```
-
-## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet?
-
-\--\> Hva er forskjellen på **renv** og **checkpoint** ?
+. . .
 
 ## Renv
 
@@ -74,6 +58,8 @@ Gjør at prosjektene blir mer
 -   isolert
 -   bærbar
 -   reproduserbar
+
+. . .
 
 ## Laste ned Renv
 
@@ -86,6 +72,20 @@ Gjør at prosjektene blir mer
 ## Installert i posjektet;
 
 ![](images/renv%20installert.png){fig-align="center"}
+
+. . .
+
+## Hva er checkpoint?
+
+-   **Formål** **:** Opprettholde systemets tilstand slik det var på et tidspunkt, slik at man kan gjenopprettes til den tilstanden på et senere tidspunkt.
+-   checkpoint kan også blir brukt til:
+    -   feilsøking
+    -   datagjennoppretting
+    -   sikkerhetskopiering
+
+## Renv **versus Checkpoint**
+
+![](images/renv versus checkpoint.png){fig-align="center"}
 
 ## Konklusjon
 
