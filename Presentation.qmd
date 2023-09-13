@@ -52,9 +52,9 @@ Renv= renvironment [@zotero-161]
 
 Gjør at prosjektene blir mer
 
--   isolert
--   bærbar
--   reproduserbar
+-   Isolert
+-   Bærbar
+-   Reproduserbar
 :::
 
 . . .
@@ -62,11 +62,11 @@ Gjør at prosjektene blir mer
 ## Laste ned Renv
 
 ::: incremental
--   en pakke [@zotero-161]
+-   En pakke [@zotero-161]
 
--   renv::init() i console terminal
+-   Renv::init() i console terminal
 
--   kun én gang per prosjekt
+-   Kun én gang per prosjekt
 
     ![](images/renv%20console.png){fig-align="center" width="279"}
 :::
@@ -83,10 +83,10 @@ Gjør at prosjektene blir mer
 -   **Formål** **:** Opprettholde systemets tilstand slik det var på et
     tidspunkt, slik at man kan gjenopprettes til den tilstanden på et
     senere tidspunkt. [@zotero-163]
--   checkpoint kan også blir brukt til:
-    -   feilsøking
-    -   datagjennoppretting
-    -   sikkerhetskopiering
+-   Checkpoint kan også blir brukt til:
+    -   Feilsøking
+    -   Datagjennoppretting
+    -   Sikkerhetskopiering
 :::
 
 ## Renv **versus Checkpoint**
@@ -96,8 +96,8 @@ Gjør at prosjektene blir mer
 ## Konklusjon
 
 ::: incremental
--   to ulike pakker med forskjellige formål
--   kan brukes sammen for å forbedre reproduserbarheten
+-   To ulike pakker med forskjellige formål
+-   Kan brukes sammen for å forbedre reproduserbarheten
 
 ![](images/avslutning.png){fig-align="center" width="521"}
 :::
