@@ -16,29 +16,23 @@ editor_options:
     wrap: 72
     canonical: true
     chunk_output_type: console
+language: nb.yaml
 echo: true
 eval: true
+bibliography: [ds-h23.bib, My_Bib.bib]
 ---
-
----
-
-keep-html: true
-notice: '@*'
----
-
-. . .
 
 ## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet?
 
 ::: incremental
-:::
-
 -   Hva er forskjellen på **renv** og **checkpoint** ?
+:::
 
 . . .
 
 ## Hva er reproduserbarhet?
 
+::: incremental
 -   Evnen til å gjenskape nøyaktig samme resultat
 -   Reproduserbarhet er viktig for:
     -   Feilretting
@@ -46,6 +40,7 @@ notice: '@*'
     -   Vitenskaplig forskning
     -   Porsjektstyring
 -   Flere måter å oppnå reproduserbarhet -\> Renv & Checkpoint
+:::
 
 . . .
 
@@ -63,7 +58,7 @@ Gjør at prosjektene blir mer
 
 ## Laste ned Renv
 
--   en pakke
+-   en pakke @renv2023
 -   renv::init() i console terminal
 -   kun én gang per prosjekt
 
@@ -77,7 +72,9 @@ Gjør at prosjektene blir mer
 
 ## Hva er checkpoint?
 
--   **Formål** **:** Opprettholde systemets tilstand slik det var på et tidspunkt, slik at man kan gjenopprettes til den tilstanden på et senere tidspunkt.
+-   **Formål** **:** Opprettholde systemets tilstand slik det var på et
+    tidspunkt, slik at man kan gjenopprettes til den tilstanden på et
+    senere tidspunkt.
 -   checkpoint kan også blir brukt til:
     -   feilsøking
     -   datagjennoppretting
@@ -85,7 +82,7 @@ Gjør at prosjektene blir mer
 
 ## Renv **versus Checkpoint**
 
-![](images/renv versus checkpoint.png){fig-align="center"}
+![](images/renv%20versus%20checkpoint.png){fig-align="center"}
 
 ## Konklusjon
 
@@ -93,3 +90,5 @@ Gjør at prosjektene blir mer
 -   kan brukes sammen for å forbedre reproduserbarheten
 
 ![](images/avslutning.png){fig-align="center" width="521"}
+
+## Referanser
