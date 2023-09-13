@@ -1,0 +1,51 @@
+---
+title: "Assignment1"
+author: "ingrid_og_emilie"
+format: 
+  revealjs:
+        theme: simple
+        reveal_options: 
+        code_fold: show
+        incremnetal: true
+        smaller: true
+        scollable: true
+        slide-number: c/t
+editor: visual
+editor_options:
+  markdown:
+    wrap: 72
+    canonical: true
+    chunk_output_type: console
+echo: true
+eval: true
+keep-html: true
+notice: '@*'
+---
+
+## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet?
+
+-   Hva er forskjellen på **renv** og **checkpoint** ?
+
+## Hva er reproduserbarhet?
+
+-   Evnen til å gjenskape nøyaktig samme resultat
+-   Reproduserbarhet er viktig for:
+    -   Feilretting
+    -   Testing og validering
+    -   Vitenskaplig forskning
+    -   Porsjektstyring
+-   Flere måter å oppnå reproduserbarhet -\> Renv & Checkpoint
+
+## Hva er checkpoint?
+
+-   **Formål** **:** Opprettholde systemets tilstand slik det var på et
+    tidspunkt, slik at man kan gjenopprettes til den tilstanden på et
+    senere tidspunkt.
+-   checkpoint kan også blir brukt til:
+    -   feilsøking
+    -   datagjennoppretting
+    -   sikkerhetskopiering
+
+## Renv **versus Checkpoint**
+
+![](images/Tabell_ingrid-01){fig-align="center"}
