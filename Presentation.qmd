@@ -18,8 +18,41 @@ editor_options:
     chunk_output_type: console
 echo: true
 eval: true
+keep-html: true
 notice: '@*'
 ---
+
+## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet?
+
+-   Hva er forskjellen på **renv** og **checkpoint** ?
+
+## Hva er reproduserbarhet?
+
+-   Evnen til å gjenskape nøyaktig samme resultat
+-   Reproduserbarhet er viktig for:
+    -   Feilretting
+    -   Testing og validering
+    -   Vitenskaplig forskning
+    -   Porsjektstyring
+-   Flere måter å oppnå reproduserbarhet -\> Renv & Checkpoint
+
+## Hva er checkpoint?
+
+-   **Formål** **:** Opprettholde systemets tilstand slik det var på et
+    tidspunkt, slik at man kan gjenopprettes til den tilstanden på et
+    senere tidspunkt.
+-   checkpoint kan også blir brukt til:
+    -   feilsøking
+    -   datagjennoppretting
+    -   sikkerhetskopiering
+
+## Renv **versus Checkpoint**
+
+![](images/Tabell_ingrid-01){fig-align="center"}
+
+notice: '@*'
+
+------------------------------------------------------------------------
 
 ```{r}
 #|label: setup
@@ -28,7 +61,7 @@ notice: '@*'
 library(tidyverse)
 ```
 
-## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet? 
+## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet?
 
 \--\> Hva er forskjellen på **renv** og **checkpoint** ?
 
@@ -48,11 +81,11 @@ Gjør at prosjektene blir mer
 -   renv::init() i console terminal
 -   kun én gang per prosjekt
 
-![](images/renv console.png){fig-align="center" width="279"}
+![](images/renv%20console.png){fig-align="center" width="279"}
 
 ## Installert i posjektet;
 
-![](images/renv installert.png){fig-align="center"}
+![](images/renv%20installert.png){fig-align="center"}
 
 ## Konklusjon
 
