@@ -30,7 +30,7 @@ library(tidyverse)
 
 ## Hvordan kan **renv** hjelpe oss med å oppnå reproduserbarhet? 
 
-Hva er forskjellen på **renv** og **checkpoint** ?
+\--\> Hva er forskjellen på **renv** og **checkpoint** ?
 
 ## Renv
 
