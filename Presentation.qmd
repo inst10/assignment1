@@ -46,6 +46,7 @@ bibliography: [ds-h23.bib, My_Bib.bib]
 
 ## Renv
 
+::: incremental
 Renv= renvironment
 
 Gjør at prosjektene blir mer
@@ -53,16 +54,21 @@ Gjør at prosjektene blir mer
 -   isolert
 -   bærbar
 -   reproduserbar
+:::
 
 . . .
 
 ## Laste ned Renv
 
+::: incremental
 -   en pakke @renv2023
+
 -   renv::init() i console terminal
+
 -   kun én gang per prosjekt
 
-![](images/renv%20console.png){fig-align="center" width="279"}
+    ![](images/renv%20console.png){fig-align="center" width="279"}
+:::
 
 ## Installert i posjektet;
 
@@ -72,6 +78,7 @@ Gjør at prosjektene blir mer
 
 ## Hva er checkpoint?
 
+::: incremental
 -   **Formål** **:** Opprettholde systemets tilstand slik det var på et
     tidspunkt, slik at man kan gjenopprettes til den tilstanden på et
     senere tidspunkt.
@@ -79,6 +86,7 @@ Gjør at prosjektene blir mer
     -   feilsøking
     -   datagjennoppretting
     -   sikkerhetskopiering
+:::
 
 ## Renv **versus Checkpoint**
 
@@ -86,9 +94,11 @@ Gjør at prosjektene blir mer
 
 ## Konklusjon
 
+::: incremental
 -   to ulike pakker med forskjellige formål
 -   kan brukes sammen for å forbedre reproduserbarheten
 
 ![](images/avslutning.png){fig-align="center" width="521"}
+:::
 
 ## Referanser
