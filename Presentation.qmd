@@ -75,9 +75,7 @@ Gjør at prosjektene blir mer: [@zotero-161]
 
 ## Installert i posjektet;
 
-![](images/renv%20installert.png){fig-align="center"}
-
-. . .
+![](images/renv install.png). . .
 
 ## Hva er checkpoint?
 
