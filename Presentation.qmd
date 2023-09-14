@@ -73,7 +73,7 @@ Gjør at prosjektene blir mer: [@zotero-161]
     ![](images/renv%20console.png){fig-align="center" width="279"}
 :::
 
-## Installert i posjektet;
+## Installert i prosjektet;
 
 ![](images/renv install-01.png){fig-align="center" width="532"}
 
