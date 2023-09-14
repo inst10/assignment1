@@ -48,9 +48,11 @@ CSL: apa-annotated-bibliography.csl
 ## Renv
 
 ::: incremental
-Renv= renvironment [@zotero-161]
+Renv= Reproducible Environment @zotero-116
 
-Gjør at prosjektene blir mer
+Hjelper oss med å oppnå reproduserbarhet
+
+Gjør at prosjektene blir mer: [@zotero-161]
 
 -   Isolert
 -   Bærbar
